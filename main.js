@@ -77,6 +77,9 @@ menuIcon.onclick = () => {
 
 
 //for side dot nav 
+const sidenav = document.querySelector('.nav');
+
+sidenav.style.top = 0.5 * window.innerHeight;
 
 const sectionlist = document.querySelectorAll('.section');
 
