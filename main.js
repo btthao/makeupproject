@@ -81,6 +81,11 @@ const sidenav = document.querySelector('.nav');
 let topPoss = 0.5 * window.innerHeight;
 sidenav.style.top = `${topPoss}px`;
 
+window.addEventListener('resize', function() {
+    let topPoss = 0.5 * window.innerHeight;
+    sidenav.style.top = `${topPoss}px`;
+})
+
 
 const sectionlist = document.querySelectorAll('.section');
 
