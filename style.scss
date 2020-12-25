@@ -356,11 +356,10 @@
     
     .nav {
         position: fixed;
-        top: 50%;
+        top: 50vh;
         right: 2%;
-        transform: translate3d(0, -50%, 0);
+        transform: translateY(-50%);
         z-index: 20;
-        transition: ease 1s;
         .link {
             display: block;
             width: 10px;
