@@ -358,7 +358,7 @@
         position: fixed;
         top: 50%;
         right: 2%;
-        transform: translateY(-50%);
+        transform: translate3d(0, -50%, 0);
         z-index: 20;
         .link {
             display: block;
