@@ -360,6 +360,7 @@
         right: 2%;
         transform: translate3d(0, -50%, 0);
         z-index: 20;
+        transition: ease 1s;
         .link {
             display: block;
             width: 10px;

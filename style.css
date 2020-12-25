@@ -453,6 +453,8 @@ h2 {
   -webkit-transform: translate3d(0, -50%, 0);
           transform: translate3d(0, -50%, 0);
   z-index: 20;
+  -webkit-transition: ease 1s;
+  transition: ease 1s;
 }
 
 .nav .link {
